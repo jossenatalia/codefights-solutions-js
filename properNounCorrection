@@ -1,0 +1,6 @@
+function properNounCorrection(noun) {
+    
+    var newNoun = noun.toLowerCase();
+    return newNoun.charAt(0).toUpperCase() + newNoun.slice(1);
+   
+}
