@@ -1,0 +1,8 @@
+function encloseInBrackets(inputString) {
+    var str = '(';
+    for (var i = 0; i < inputString.length; i++) {
+        str += inputString[i];
+    }
+    return str += ')';
+    
+}
