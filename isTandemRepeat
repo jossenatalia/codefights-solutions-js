@@ -1,0 +1,12 @@
+function isTandemRepeat(inputString) {
+    var a = inputString.slice(0,inputString.length/2);
+    var b = inputString.slice(inputString.length/2);
+    
+    if (inputString.length%2 != 0) {
+        return false;
+    } else if (a === b) {
+        return true;  
+    } else {
+        return false;
+    }     
+}
