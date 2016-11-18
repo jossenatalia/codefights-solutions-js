@@ -1,0 +1,10 @@
+function isCaseInsensitivePalindrome(inputString) {
+    var str = inputString.toLowerCase();
+    var reverseStr = str.split("").reverse().join("");
+    
+    if (str === reverseStr) {
+        return true;
+    } else {
+        return false;
+    }
+}
