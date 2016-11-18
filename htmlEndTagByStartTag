@@ -1,0 +1,11 @@
+function htmlEndTagByStartTag(startTag) {
+    
+    var tag = startTag.slice(1).split(' ');
+    var closeTag = '</' + tag[0];
+    
+    if (closeTag[closeTag.length-1] === '>') {
+        return closeTag;
+    } else {
+        return closeTag += ">"; 
+    }
+}
